@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate Stats SVG
-        uses: cicirello/user-statistician@v2
+        uses: cicirello/user-statistician@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           output-file: generated/stats.svg
